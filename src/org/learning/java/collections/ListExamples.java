@@ -1,6 +1,7 @@
 package org.learning.java.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ListExamples {
@@ -10,6 +11,12 @@ public class ListExamples {
     names.add("Will");
     names.add("Dustin");
     names.add("Max");
+    names.add("Daisy");
+    System.out.println(names);
+    // metodo della classe di utilities Collections che riordina la lista
+    Collections.sort(names);
+    System.out.println(names);
+
     System.out.println(names);
     String secondElement = names.get(1);
     System.out.println(secondElement);
